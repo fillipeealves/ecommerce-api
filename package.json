@@ -1,0 +1,30 @@
+{
+  "name": "ecommerce-dashboard-api",
+  "version": "1.0.0",
+  "description": "API REST simples (Express + Sequelize + MySQL) para um dashboard de e-commerce.",
+  "main": "server.js",
+  "type": "commonjs",
+  "scripts": {
+    "dev": "nodemon server.js",
+    "start": "node server.js",
+    "seed": "node src/utils/seed.js"
+  },
+  "keywords": ["express", "sequelize", "mysql", "jwt", "api"],
+  "license": "MIT",
+  "dependencies": {
+    "bcryptjs": "^2.4.3",
+    "cors": "^2.8.5",
+    "dotenv": "^16.4.5",
+    "express": "^4.19.2",
+    "express-rate-limit": "^7.4.0",
+    "helmet": "^7.1.0",
+    "joi": "^17.13.3",
+    "jsonwebtoken": "^9.0.2",
+    "morgan": "^1.10.0",
+    "mysql2": "^3.11.0",
+    "sequelize": "^6.37.3"
+  },
+  "devDependencies": {
+    "nodemon": "^3.1.4"
+  }
+}
